@@ -12,6 +12,10 @@ resource "azurerm_mysql_flexible_server" "mysql" {
   storage {
     size_gb = 20
   }
+
+  lifecycle {
+    ignore_changes = [zone]
+  }
 }
 
 resource "azurerm_mysql_flexible_database" "db" {
