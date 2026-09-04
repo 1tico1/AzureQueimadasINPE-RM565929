@@ -1,5 +1,5 @@
 variable "location" {
-  default = "eastus"
+  default = "brazilsouth"
 }
 
 variable "resource_group_name" {
