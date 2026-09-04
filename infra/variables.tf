@@ -26,3 +26,4 @@ variable "function_app_name" {
 variable "storage_account_name" {
   default = "stqueimadasfuncrm565929"
 }
+# trigger redeploy
